@@ -2,7 +2,7 @@ Name: python3-module-jc
 Version: 1.23.4
 Release: alt1
 
-Summary: 
+Summary: jc accepts piped input from STDIN and outputs a JSON representation of the previous command's output to STDOUT.
 License: MIT
 Group: Development/Python
 Url: https://pypi.org/project/
@@ -14,7 +14,7 @@ BuildRequires: rpm-build-python3
 
 %description
 %summary
-smbus2 is drop-in replacement of lm-sensors smbus package
+jc accepts piped input from STDIN and outputs a JSON representation of the previous command's output to STDOUT.
 
 %prep
 %setup
