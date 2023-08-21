@@ -11,9 +11,9 @@ Source: %name-%version-%release.tar
 
 BuildArch: noarch
 BuildRequires: rpm-build-python3
-BuildRequires: python3(pyedid.edid)
-BuildRequires: python3(pyedid.helpers.edid_helper)
-BuildRequires: python3(pyedid.helpers.registry)
+Requires: python3(pyedid.edid)
+Requires: python3(pyedid.helpers.edid_helper)
+Requires: python3(pyedid.helpers.registry)
 
 
 %description
