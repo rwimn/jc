@@ -5,7 +5,7 @@ Release: alt1
 Summary: jc accepts piped input from STDIN and outputs a JSON representation of the previous command's output to STDOUT.
 License: MIT
 Group: Development/Python
-Url: https://pypi.org/project/
+Url: https://pypi.org/project/jc
 
 Source: %name-%version-%release.tar
 
